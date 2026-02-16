@@ -1,0 +1,42 @@
+html{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(123deg,white ,#78e8ec80 ,white);
+}
+
+.container{
+    
+    padding: 5px 10px;
+    height: 670px;
+    width: 550px;
+    background: linear-gradient(123deg , blue , #2b2bbbb2,green);
+    border-radius: 20px;
+}
+.container h4{
+    color: #ffa600;
+    font-size: 30px;
+
+}
+.search-bar input{
+    height: 30px;
+    width: 250px;
+    border-color: green;
+    border-radius: 10px;
+    outline-style: none;
+}
+.display-data{
+    list-style: none;
+    padding: 0 5px;
+}
+.display-data li{
+    background-color: white;
+    border-radius: 5px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 5px;
+    text-align: left;
+    margin-bottom:10px;
+    font-weight: 600;
+}
